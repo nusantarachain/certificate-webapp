@@ -20,8 +20,8 @@ Build using [Nuxt.js](https://nuxtjs.org/).
 
 ## Build Setup
 
-1. Copy file `.env-example` to `.env`.
-2. Edit the file `.env` according to your needs.
+1. Copy file `.env-example` to `.env`
+2. Edit the file `.env` as you needs
 3. Run the following commands:
 
 ```bash
@@ -43,6 +43,8 @@ For deployment we only need the compiled static files, you can get compiled stat
 $ yarn generate
 ```
 
+All compiled static files will be in `/dist` directory.
+
 ## TTD
 
 Please adjust `ttdmap.ts` for mapping signer name to hand writing human signature image,
@@ -51,8 +53,7 @@ signature images stored in `/assets/ttd`.
 
 ## Example
 
-When running in development mode you can navigate the browser to: [http://localhost:3000/?i=Nk62sTxYcDn](http://localhost:3000/?i=Nk62sTxYcDn), and you can see single certificate page, you can customize it by editing `pages/index.vue` file.
-
+When running in development mode and use `.env` from `.env-example` (without edit) you can navigate the browser to: [http://localhost:3000/?i=Nk62sTxYcDn](http://localhost:3000/?i=Nk62sTxYcDn), and you can see single certificate page, you can customize it by editing `pages/index.vue` file.
 
 ![nuchain certificate webapp example](img/ss-cert-view-example.png)
 
