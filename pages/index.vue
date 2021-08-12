@@ -258,7 +258,6 @@ export default {
     const org = (
       await this.$nuchain.api.query.organization.organizations(cert.org_id)
     ).toHuman()
-    console.log('🚀 ~ file: _issuedId.vue ~ line 119 ~ fetch ~ org', org)
 
     // assign to this data
 
