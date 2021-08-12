@@ -53,7 +53,7 @@ signature images stored in `/assets/ttd`.
 
 ## Example
 
-When running in development mode and use `.env` from `.env-example` (without edit) you can navigate the browser to: [http://localhost:3000/?i=Nk62sTxYcDn](http://localhost:3000/?i=Nk62sTxYcDn), and you can see single certificate page, you can customize it by editing `pages/index.vue` file.
+When running in development mode and use `.env` from `.env-example` (without edit) you can navigate the browser to: [http://localhost:3000/?i=Nk62sTxYcDn](http://localhost:3000/?i=Nk62sTxYcDn), and you can see single certificate page, you can customize by editing `pages/index.vue` file.
 
 ![nuchain certificate webapp example](img/ss-cert-view-example.png)
 
