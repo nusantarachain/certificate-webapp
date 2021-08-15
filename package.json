@@ -24,7 +24,7 @@
     "@polkadot/util-crypto": "^6.4.1",
     "@polkadot/x-randomvalues": "^6.4.1",
     "core-js": "^3.9.1",
-    "nuchain-api": "../nuchain-js-api/dist",
+    "nuchain-api": "^0.1.1",
     "nuxt": "^2.15.3",
     "qrcode": "^1.4.4",
     "svg-to-pdfkit": "^0.1.8",
